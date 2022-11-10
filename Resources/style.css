@@ -1,0 +1,94 @@
+body {
+    background-color: #1f1f1fbf;
+    color: #fff;
+}
+
+h1 {
+    width: 100%;
+    top: 300px;
+    font-family: 'Aharoni', sans-serif;
+    color: #fff !important;
+    font-size: 50pt;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #0b2240bf;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    border: 0 1000px;
+    margin: 0;
+    padding: 20px auto;
+    offset: 100px;
+}
+
+li {
+    border-width: 200px;
+}
+
+nav li {
+    border: auto 100px;
+    width: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+}
+
+main {
+    position: relative;
+    top: 80px;
+    padding: 60px;
+    background-image: url('Images/cover.jpg');
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100%;
+    z-index: 0;
+}
+
+.refbtn {
+    padding: auto 100px;
+    background-color: #171324;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20pt;
+    color: #cfc2f9;
+    width: 40px;
+    
+    margin: 20px 30px;
+}
+
+.front {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.bannner {
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+    background-size: cover;
+}
+
+.maincont {
+    position: relative;
+    top: 100px;
+}
+
+#aboutme h3 {
+
+    position: relative;
+    width: 30%;
+    background-color: #00302dbf;
+    z-index: 3;
+}
