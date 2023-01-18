@@ -20,12 +20,19 @@ header {
 
 nav {
     margin: 0;
-    padding: 20px auto;
+    padding: 40px auto;
 }
-nav li {
+
+.navigation li {
     width: 80px;
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     display: inline-block;
+}
+
+.navigation ul {
+    background-color: green;
+    opacity: 70%;
+    text-align: center;
 }
